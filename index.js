@@ -8,4 +8,5 @@ text.append(createText);
 
 const createButton = document.createElement('button');
 createButton.innerHTML = 'Mostrar';
+createButton.classList = 'button';
 show.append(createButton);

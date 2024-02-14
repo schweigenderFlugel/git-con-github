@@ -1,3 +1,18 @@
 .text {
     color: red;
 }
+
+.button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+    border-color: white;
+    padding: 8px;
+}
+
+.button:hover {
+    background-color: rgb(0, 202, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
