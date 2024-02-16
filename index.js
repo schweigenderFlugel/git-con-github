@@ -1,5 +1,6 @@
 const text = document.getElementById('text');
 const show = document.getElementById('show');
+const hide = document.getElementById("hide")
 
 const createText = document.createElement('h1');
 createText.innerHTML = "Esto es una prueba de git con github";
@@ -14,4 +15,9 @@ show.append(createButton);
 
 show.addEventListener('click', () => {
   createText.style.display = 'flex';
+})
+
+
+hide.addEventListener('click', () => {
+  text.style.display = "none"
 })
